@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Hero Landing Page</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-white">
+
+  
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+  
+      <div class="flex items-center space-x-2 font-bold text-gray-900 text-lg cursor-pointer">
+        <span>✦</span>
+        <span>Project</span>
+      </div>
+
+      <div class="flex items-center space-x-8 text-sm">
+        <nav class="hidden md:flex items-center space-x-6 text-gray-600 font-medium">
+          <a href="#product" class="hover:text-black transition">Product</a>
+          <a href="#solutions" class="hover:text-black transition">Solutions</a>
+          <a href="#resources" class="hover:text-black transition">Resources</a>
+          <a href="#pricing" class="hover:text-black transition">Pricing</a>
+          <a href="#login" class="hover:text-black transition">Log in</a>
+        </nav>
+        <button class="bg-[#1e293b] hover:bg-black text-white text-xs font-semibold px-4 py-2.5 rounded-md transition">
+          Get AI free.
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="relative bg-gradient-to-b from-orange-50 via-orange-50/30 to-white pt-20 pb-40 px-4 overflow-hidden">
+    <div class="max-w-4xl mx-auto text-center">
+ 
+      <h1 class="text-4xl md:text-6xl font-extrabold text-[#1e293b] tracking-tight leading-tight">
+        Write, plan, share.<br />
+        With AI at your side.
+      </h1>
+
+      <p class="mt-4 text-sm md:text-base text-gray-500 max-w-xl mx-auto">
+        It is the connected workspace where better, faster work happens. Now with AI.
+      </p>
+
+      <div class="relative mt-8 flex items-center justify-center space-x-4">
+        <a href="#get-started" class="bg-[#1e293b] hover:bg-black text-white text-sm font-medium px-5 py-2.5 rounded shadow hover:shadow-md transition flex items-center gap-1">
+          <span>Get AI free</span>
+          <span>&rarr;</span>
+        </a>
+        <a href="#demo" class="bg-sky-500 hover:bg-sky-600 text-white text-sm font-medium px-5 py-2.5 rounded shadow hover:shadow-md transition">
+          Request a demo
+        </a>
+      </div>
+      <div class="relative mt-16 max-w-2xl mx-auto h-[360px] md:h-[400px]">
+        
+        <div class="absolute inset-0 flex items-center justify-center">
+          <img 
+            src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&q=80" 
+            alt="Dashboard Preview" 
+            class="w-full h-full object-cover rounded-xl shadow-2xl border border-gray-200"
+          />
+        </div>
+
+        <div class="absolute -left-6 top-1/3 bg-white p-3.5 rounded-lg shadow-lg border border-gray-100 flex items-center space-x-3 text-left z-20">
+          <div class="text-lg bg-orange-100 text-orange-600 p-2 rounded">
+            📋
+          </div>
+          <div>
+            <p class="text-[10px] text-gray-400 uppercase font-semibold">Tasks</p>
+            <p class="text-xs font-semibold text-gray-800">12 tasks completed today</p>
+          </div>
+        </div>
+
+        <div class="absolute -right-6 top-1/4 bg-white p-3.5 rounded-lg shadow-lg border border-gray-100 flex items-center space-x-3 text-left z-20">
+          <div class="text-green-600 bg-green-100 text-sm font-bold w-7 h-7 flex items-center justify-center rounded-full">
+            ✓
+          </div>
+          <div>
+            <p class="text-[10px] text-gray-400 uppercase font-semibold">Project Status</p>
+            <p class="text-xs font-semibold text-gray-800">On Track</p>
+          </div>
+        </div>
+
+        <div class="absolute -right-4 bottom-8 bg-white p-3 rounded-lg shadow-lg border border-gray-100 flex items-center space-x-3 text-left z-20">
+          
+          <div class="flex -space-x-2">
+            <img class="w-6 h-6 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Avatar" />
+            <img class="w-6 h-6 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&q=80" alt="Avatar" />
+            <img class="w-6 h-6 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&q=80" alt="Avatar" />
+          </div>
+          <div>
+            <p class="text-[10px] text-gray-400 uppercase font-semibold">Team Activity</p>
+            <p class="text-xs font-medium text-gray-700">+5 online</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <div class="fixed bottom-6 right-6 z-50">
+    <button class="bg-[#1e293b] hover:bg-black text-white p-3.5 rounded-xl shadow-xl flex items-center justify-center transition">
+   
+      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z" />
+      </svg>
+    </button>
+  </div>
+
+</body>
+</html>
